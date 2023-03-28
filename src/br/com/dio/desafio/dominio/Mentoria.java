@@ -27,4 +27,11 @@ public class Mentoria {
 		this.data = data;
 	}
 	
+	@Override
+	public String toString() {
+		return "Mentoria {titulo=" + titulo + ", descricao=" + descricao + ", data=" + data + "}";
+	}
+	
+	
+	
 }
